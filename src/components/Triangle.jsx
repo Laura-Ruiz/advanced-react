@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Triangle({color, size}) {
 
-    console.log("color", color, size)
-    const styleTriangle = {
+  const styleTriangle = {
       width: 0,
       borderLeft: `${size}px solid transparent`,
       borderRight: `${size}px solid transparent`,
