@@ -3,8 +3,11 @@ import Circle from "./components/Circle";
 import Square from "./components/Square";
 import Triangle from "./components/Triangle";
 import Input from "./components/Input";
-function App() {
 
+// Si fuese una prueba técnica diria que chapo por lo conciso del resultado
+// Pero no es una prueba técnica, es un ejercicio de práctica
+// Por lo que te recomiendo que lo hagas con los componentes que te he dicho en el otro archivo
+function App() {
   const [data, setData] = useState({
     triangleColor: "#5cb85c",
     triangleSize: 50,
@@ -15,7 +18,6 @@ function App() {
     squareColor: "#428bca",
     squareSize: 100,
   });
-
 
   useEffect(() => {
     if (
